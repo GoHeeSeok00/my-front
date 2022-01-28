@@ -5,6 +5,7 @@ on:
   push:
     branches:
       - main
+# 각 변수는 세팅 - secrets 에서 설정
 jobs:
   build:
     runs-on: ubuntu-latest
